@@ -29,6 +29,7 @@
             android:text="인원예약"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="invisible"
             android:id="@+id/textView6" />
 
         <LinearLayout
@@ -40,12 +41,14 @@
                 android:text="어른(15000원)"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
+                android:visibility="invisible"
                 android:id="@+id/textView7" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
+                android:visibility="invisible"
                 android:ems="10"
                 android:id="@+id/editText"
                 android:singleLine="true"
@@ -64,12 +67,14 @@
                 android:text="청소년(120000원)"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
+                android:visibility="invisible"
                 android:id="@+id/textView8" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
+                android:visibility="invisible"
                 android:ems="10"
                 android:id="@+id/editText4"
                 android:text="0" />
@@ -84,12 +89,14 @@
                 android:text="어린이(8000원)"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
+                android:visibility="invisible"
                 android:id="@+id/textView9" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
+                android:visibility="invisible"
                 android:ems="10"
                 android:id="@+id/editText5"
                 android:text="0" />
@@ -104,6 +111,7 @@
             <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+                android:visibility="invisible"
                 android:id="@+id/radioGroup" >
 
                 <RadioButton
@@ -147,14 +155,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/button5"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:visibility="invisible" />
 
             <Button
                 android:text="시간예약GO"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/button4"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:visibility="invisible" />
 
         </LinearLayout>
 
